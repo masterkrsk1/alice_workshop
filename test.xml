@@ -1,7 +1,5 @@
 
-<input pattern="*">
-  <output value="Например привет"/>
-</input>
+
 
 
 <context>
@@ -9,7 +7,9 @@
     <output value="Ну прет"/>
   </input>
 </context>
-
+<input pattern="*">
+  <output value="Например привет"/>
+</input>
 <sample>
   <item value="Ремонт"/>
   <item value="Запчати"/>
