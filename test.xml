@@ -4,21 +4,19 @@
 </input>
 
   <input pattern="* привет* *">
-    <output value="Ну прет"/>
-  </input>
-
-<sample>
+    <output value="Ну прет. Что надо?"/>
+    <sample>
   <item value="Ремонт"/>
   <item value="Запчати"/>
 </sample>
+  </input>
+
+
 
   <input pattern="* ремонт *">
     <output value="Выбери технику"/>
+    
   </input>
 
-<sample>
-  <item value="Стиральные машины"/>
-  <item value="Плиты"/>
-  <item value="Холодильники"/>
-</sample>
+
 </context>
