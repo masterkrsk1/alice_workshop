@@ -6,18 +6,18 @@
   <input pattern="* привет* *">
     <output value="Ну прет. Что надо?"/>
     
-     <context modal="true">
+     
     <sample>
   <item value="Ремонт"/>
   <item value="Запчати"/>
 </sample>
-    </context>
+  
   </input>
     
 
-
+<context modal="true">
   <input pattern="* Ремонт* *">
-    <output value="Выбери технику"/>
+    <output value="Выбери технику"/>  </context>
     <sample>
   <item value="Стиральные машины"/>
   <item value="Плиты"/>
