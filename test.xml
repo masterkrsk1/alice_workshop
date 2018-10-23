@@ -1,7 +1,3 @@
-
-
-
-
 <context>
   <input pattern="* привет* *">
     <output value="Ну прет"/>
@@ -14,7 +10,6 @@
   <item value="Ремонт"/>
   <item value="Запчати"/>
 </sample>
-
 <context>
   <input pattern="* ремонт *">
     <output value="Выбери технику"/>
