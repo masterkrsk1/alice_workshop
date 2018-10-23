@@ -7,10 +7,11 @@
 <context>
   <input pattern="* ремонт *">
     <output value="Выбери технику"/>
-  </input>
-</context>
-<sample>
+    <sample>
   <item value="Стиральные машины"/>
   <item value="Плиты"/>
   <item value="Холодильники"/>
 </sample>
+  </input>
+</context>
+
