@@ -28,7 +28,7 @@
   
   
   <context id="repair">
-    <input pattern="*">
+
   <output value="Мы работаем на выезде и в мастерской. Скажи, нам приехать, или ты сам приевзешь?"/>
  </input>
   <input pattern="* Привезу* *">
