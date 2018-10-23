@@ -3,10 +3,7 @@
     <output value="Ну прет"/>
   </input>
 </context>
-<sample>
-  <item value="Ремонт"/>
-  <item value="Запчати"/>
-</sample>
+
 <context>
   <input pattern="* ремонт *">
     <output value="Выбери технику"/>
