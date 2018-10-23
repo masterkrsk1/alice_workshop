@@ -11,9 +11,10 @@
   <item value="Ремонт"/>
   <item value="Запчати"/>
 </sample>
+    </context>
   </input>
     
-</context>
+
 
   <input pattern="* Ремонт* *">
     <output value="Выбери технику"/>
