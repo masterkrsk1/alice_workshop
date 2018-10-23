@@ -5,12 +5,14 @@
 
   <input pattern="* привет* *">
     <output value="Ну прет. Что надо?"/>
+    
      <context modal="true">
     <sample>
   <item value="Ремонт"/>
   <item value="Запчати"/>
 </sample>
   </input>
+    
 </context>
 
   <input pattern="* Ремонт* *">
@@ -21,8 +23,6 @@
   <item value="Холодильники"/>
 </sample>
   </input>
- </context> 
-<context>
   <input pattern="* Стиральные машины* *">
   <output value="Мы работаем на выезде и в мастерской. Скажи, нам приехать, или ты сам приевзешь?"/>
  </input>
