@@ -13,8 +13,13 @@
 
 
 
-  <input pattern="* ремонт *">
+  <input pattern="* Ремонт* *">
     <output value="Выбери технику"/>
+    <sample>
+  <item value="Стиральные машины"/>
+  <item value="Плиты"/>
+  <item value="Холодильники"/>
+</sample>
     
   </input>
 
