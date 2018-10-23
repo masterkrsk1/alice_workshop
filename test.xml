@@ -1,20 +1,20 @@
-/// пустой запрос
+
 <input pattern="*">
   <output value="Например привет"/>
 </input>
-/// приветствие
+
 
 <context>
   <input pattern="* привет* *">
     <output value="Ну прет"/>
   </input>
 </context>
-/// кнопки
+
 <sample>
   <item value="Ремонт"/>
   <item value="Запчати"/>
 </sample>
-/// ремонт
+
 <context>
   <input pattern="* ремонт *">
     <output value="Выбери технику"/>
