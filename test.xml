@@ -2,22 +2,23 @@
 <input pattern="*">
   <output value="Например привет"/>
 </input>
-<context>
+
   <input pattern="* привет* *">
     <output value="Ну прет"/>
   </input>
-</context>
+
 <sample>
   <item value="Ремонт"/>
   <item value="Запчати"/>
 </sample>
-<context>
+
   <input pattern="* ремонт *">
     <output value="Выбери технику"/>
   </input>
-</context>
+
 <sample>
   <item value="Стиральные машины"/>
   <item value="Плиты"/>
   <item value="Холодильники"/>
-</sample></context>
+</sample>
+</context>
