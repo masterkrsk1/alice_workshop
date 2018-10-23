@@ -15,9 +15,9 @@
   </input>
     
 
-<context modal="true">
+
   <input pattern="* Ремонт* *">
-    <output value="Выбери технику"/>  </context>
+    <output value="Выбери технику"/> 
     <sample>
   <item value="Стиральные машины"/>
   <item value="Плиты"/>
