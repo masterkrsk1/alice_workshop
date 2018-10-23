@@ -5,12 +5,13 @@
 
   <input pattern="* привет* *">
     <output value="Ну прет. Что надо?"/>
+     <context modal="true">
     <sample>
   <item value="Ремонт"/>
   <item value="Запчати"/>
 </sample>
   </input>
-
+</context>
 
   <input pattern="* Ремонт* *">
     <output value="Выбери технику"/>
