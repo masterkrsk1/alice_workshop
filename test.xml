@@ -24,7 +24,7 @@
   </input>
   <input pattern="* Стиральные машины* *">
   <context id="repair"/>
-  </input>
+ 
   
   
   <context id="repair">
@@ -34,7 +34,7 @@
   <input pattern="* Привезу* *">
   <output value="Мастерская находится на Кутузова, 34. Сегодня работает с 9 до 21"/>
   </input>
-    
+    </input> 
     
   </context>
   
