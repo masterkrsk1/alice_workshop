@@ -43,7 +43,7 @@
   </input>
   <input pattern="ДА">
   <output value="Отлично! Оставь свой телефон. Мастер свяжется с тобой"/>
-  
+  </input> 
   
     </context>
     </input> 
