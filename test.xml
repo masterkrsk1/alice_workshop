@@ -22,6 +22,7 @@
   <item value="Холодильники"/>
 </sample>
   </input>
+  
   <input pattern="* Стиральные машины* *">
   <context id="repair"/>
  
@@ -32,6 +33,18 @@
   <input pattern="* Привезу* *">
   <output value="Мастерская находится на Кутузова, 34. Сегодня работает с 9 до 21"/>
   </input>
+  
+  <input pattern="приеха*|выз*|*дом*">
+  <output value="Хорошо. Выезд по городу стоит 300 рублей. Согласен?"/>
+  <sample>
+  <item value="ДА"/>
+  <item value="НЕТ"/>
+</sample>
+  </input>
+  <input pattern="ДА">
+  <output value="Отлично! Оставь свой телефон. Мастер свяжется с тобой"/>
+  
+  
     </context>
     </input> 
     
